@@ -1,0 +1,28 @@
+ul{
+    margin: 0;
+    padding: 0;
+}
+.footer{
+    padding: 3px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: linear-gradient(white, blueviolet);
+
+
+}
+
+.footer ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.footer ul li a {
+    color: blueviolet;
+    text-decoration: none;
+    cursor: pointer;
+}

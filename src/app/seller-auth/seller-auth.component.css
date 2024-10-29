@@ -1,0 +1,52 @@
+.sing-up, .Login{
+    text-align: center;
+}
+
+.sing-up h1, .Login h1{
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 80px;
+    color: blueviolet;
+}
+
+.auth-toggle-link {
+    margin-top: 20px;
+    color: blueviolet;
+    font-size: 14px;
+    text-align: left;
+    cursor: pointer;
+}
+
+.common-form input{
+    background-color: rgb(200, 232, 252);
+}
+
+.form-button{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: blueviolet;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .user-auth h1{
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 80px;
+    color: blueviolet;
+}
+
+.user-auth{
+    margin-bottom: 100px;
+}
+.common-form a{
+    color: blueviolet;
+    cursor: pointer;
+}
+
+  
