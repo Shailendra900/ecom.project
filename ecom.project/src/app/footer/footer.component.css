@@ -1,0 +1,96 @@
+/* Base Styles */
+.footer {
+  background-color: #333;
+  color: white;
+  font-family: 'Arial', sans-serif;
+  padding: 20px 10px;
+  z-index: 999;
+  box-shadow: 0 -1px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  position: relative; /* Changed from fixed */
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.footer ul li {
+  margin: 10px 15px;
+}
+
+.footer ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: color 0.3s ease;
+}
+
+.footer ul li a:hover {
+  color: #ff6347;
+}
+
+.footer p {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 0.8rem;
+  color: #bbb;
+}
+
+/* Responsive Styles for Mobile */
+@media (max-width: 767px) {
+  .footer {
+      padding: 15px 5px;
+      position: relative; /* Ensure no fixed positioning on mobile */
+  }
+
+  .footer ul {
+      display: block;
+      text-align: center;
+  }
+
+  .footer ul li {
+      margin: 8px 0;
+  }
+
+  .footer ul li a {
+      font-size: 1rem;
+  }
+
+  .footer p {
+      font-size: 0.9rem;
+  }
+}
+
+/* Responsive Styles for Tablet and Desktop */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .footer ul {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+
+  .footer ul li {
+      margin: 10px 15px;
+  }
+
+  .footer p {
+      font-size: 0.9rem;
+  }
+}
+
+/* Ensuring Footer Sticks to the Bottom on Long Content */
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  flex: 1; /* Ensure the main content takes the full space */
+}
+

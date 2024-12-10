@@ -1,0 +1,112 @@
+/* Basic styling for the image */
+img {
+    width: 100%;
+    height: 150px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    object-fit: contain;
+  }
+  
+  /* Basic styling for the item details */
+  .search-item .details {
+    padding-left: 15px;
+  }
+  
+  .search-item .details h6 {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+  }
+  
+  .search-item .details p {
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  .search-item .details span {
+    margin-right: 10px;
+    font-weight: 600;
+  }
+  
+  /* Responsive Layout */
+  
+  /* For Mobile */
+  @media (max-width: 576px) {
+    .search-item {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 20px;
+    }
+  
+    .search-item .col-sm-3 {
+      width: 100%;
+      margin-bottom: 15px;
+    }
+  
+    .search-item .details {
+      width: 100%;
+      padding-left: 0;
+    }
+  
+    .search-item .details h6 {
+      font-size: 1rem;
+    }
+  
+    .search-item .details p {
+      font-size: 0.85rem;
+    }
+  }
+  
+  /* For Tablet and Small Desktop (up to 768px) */
+  @media (min-width: 577px) and (max-width: 768px) {
+    .search-item {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 20px;
+    }
+  
+    .search-item .col-sm-3 {
+      width: 100%;
+      margin-bottom: 15px;
+    }
+  
+    .search-item .details {
+      width: 100%;
+      padding-left: 0;
+    }
+  
+    .search-item .details h6 {
+      font-size: 1.1rem;
+    }
+  
+    .search-item .details p {
+      font-size: 0.9rem;
+    }
+  }
+  
+  /* For Large Screen (768px and above) */
+  @media (min-width: 769px) {
+    .search-item {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-bottom: 30px;
+    }
+  
+    .search-item .col-sm-3 {
+      width: 30%;
+      margin-right: 15px;
+    }
+  
+    .search-item .details {
+      width: 65%;
+    }
+  
+    .search-item .details h6 {
+      font-size: 1.2rem;
+    }
+  
+    .search-item .details p {
+      font-size: 1rem;
+    }
+  }
+  

@@ -1,0 +1,196 @@
+/* Base Styles for the Product List */
+.product-list {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+}
+
+.product-list h1 {
+    text-align: center;
+    font-size: 2.4rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.message-p {
+    text-align: center;
+    color: #28a745; /* Green color for success messages */
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #f8f8f8;
+    color: #333;
+    font-weight: bold;
+}
+
+td img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    border-radius: 8px;
+}
+
+td {
+    font-size: 1rem;
+    color: #333;
+}
+
+td .adjust-update-link {
+    margin-left: 10px;
+    color: #007bff;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+td .adjust-update-link:hover {
+    color: #0056b3;
+}
+
+td fa-icon {
+    cursor: pointer;
+    color: #dc3545; /* Red color for delete icon */
+    transition: color 0.3s ease;
+}
+
+td fa-icon:hover {
+    color: #c82333; /* Darker red on hover */
+}
+
+/* Responsive Styles */
+
+/* Mobile-first: Stack the table rows for smaller screens */
+@media (max-width: 768px) {
+    .product-list {
+        padding: 20px;
+        margin: 15px;
+    }
+
+    .product-list h1 {
+        font-size: 1.8rem;
+    }
+
+    table {
+        width: 100%;
+        display: block;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    thead {
+        display: none;
+    }
+
+    tbody tr {
+        display: block;
+        border-bottom: 1px solid #ddd;
+        margin-bottom: 10px;
+    }
+
+    tbody td {
+        display: block;
+        text-align: right;
+        position: relative;
+        padding-left: 50%;
+        padding-right: 10px;
+        font-size: 1rem;
+        border-bottom: 1px solid #ddd;
+    }
+
+    tbody td:before {
+        content: attr(data-label);
+        position: absolute;
+        left: 10px;
+        font-weight: bold;
+        color: #333;
+    }
+
+    tbody td img {
+        width: 40px; /* Smaller image size on mobile */
+    }
+
+    .adjust-update-link {
+        font-size: 0.9rem;
+    }
+
+    fa-icon {
+        font-size: 1.2rem;
+    }
+}
+
+/* For tablet and small desktop screens (768px to 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .product-list {
+        padding: 25px;
+    }
+
+    table {
+        width: 100%;
+    }
+
+    th, td {
+        font-size: 1rem;
+        padding: 10px;
+    }
+
+    td img {
+        width: 50px;
+    }
+
+    .adjust-update-link {
+        font-size: 1rem;
+    }
+
+    fa-icon {
+        font-size: 1.3rem;
+    }
+}
+
+/* For larger screens (Desktop and beyond) */
+@media (min-width: 1025px) {
+    .product-list {
+        padding: 30px;
+    }
+
+    table {
+        width: 100%;
+    }
+
+    th, td {
+        font-size: 1.1rem;
+        padding: 12px;
+    }
+
+    td img {
+        width: 60px;
+    }
+
+    .adjust-update-link {
+        font-size: 1.1rem;
+    }
+
+    fa-icon {
+        font-size: 1.4rem;
+    }
+}

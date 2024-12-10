@@ -1,0 +1,146 @@
+/* Base Styles */
+.my-orders {
+  padding: 20px;
+  background-color: #f9f9f9;
+  font-family: 'Arial', sans-serif;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.my-orders h1 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.my-orders .row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 10px;
+}
+
+.my-orders .row span {
+  font-weight: bold;
+  color: #555;
+  text-align: center;
+}
+
+.my-orders .row .col-sm-2 {
+  flex: 1 1 18%; /* Each column takes 18% width */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.my-orders .row img.order-img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+/* Styling for order rows */
+.my-orders .order-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 15px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.my-orders .order-row .col-sm-2 {
+  flex: 1 1 18%; /* Ensure the columns have equal width */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.my-orders .order-row span {
+  text-align: center;
+  font-size: 1rem;
+  color: #333;
+}
+
+.my-orders .order-row .form-button {
+  padding: 8px 12px;
+  background-color: #ff6347;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.my-orders .order-row .form-button:hover {
+  background-color: #ff4500;
+}
+
+/* Responsive Styles for Mobile */
+@media (max-width: 767px) {
+  .my-orders .row {
+      display: block;
+      margin-bottom: 15px;
+  }
+
+  .my-orders .row .col-sm-2 {
+      flex: 1 1 100%;
+      text-align: left;
+      padding: 10px 0;
+  }
+
+  .my-orders .order-row {
+      display: block;
+  }
+
+  .my-orders .order-row .col-sm-2 {
+      flex: 1 1 100%;
+      text-align: left;
+      padding: 10px 0;
+  }
+
+  .my-orders h1 {
+      font-size: 1.5rem;
+  }
+
+  .my-orders .order-row span {
+      font-size: 0.9rem;
+  }
+
+  .my-orders .order-row .form-button {
+      width: 100%;
+      padding: 12px;
+      font-size: 1rem;
+  }
+
+  .my-orders .order-row .form-button:hover {
+      background-color: #ff4500;
+  }
+}
+
+/* Responsive Styles for Tablet (between 768px to 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .my-orders .row .col-sm-2 {
+      flex: 1 1 30%;
+  }
+
+  .my-orders .order-row .col-sm-2 {
+      flex: 1 1 30%;
+  }
+
+  .my-orders h1 {
+      font-size: 1.8rem;
+  }
+
+  .my-orders .order-row span {
+      font-size: 1rem;
+  }
+
+  .my-orders .order-row .form-button {
+      width: 100%;
+      padding: 10px;
+  }
+}

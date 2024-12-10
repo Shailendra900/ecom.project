@@ -1,0 +1,157 @@
+/* Overall Container */
+.user-auth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(45deg, #5f61df, #f06595);
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+    overflow: hidden;
+    position: relative;
+}
+
+/* Background image animation */
+@keyframes floating {
+    0% { transform: translateY(-30px); }
+    50% { transform: translateY(30px); }
+    100% { transform: translateY(-30px); }
+}
+
+.user-auth::before {
+    content: '';
+    position: absolute;
+    top: 20%;
+    right: 10%;
+    width: 300px;
+    height: 300px;
+    background-image: url('https://source.unsplash.com/1600x900/?mountain');
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    animation: floating 4s ease-in-out infinite;
+    z-index: 0;
+}
+
+/* Form container */
+.user-signup, .user-login {
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 15px;
+    padding: 40px 50px;
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+    z-index: 1;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    transition: transform 0.5s ease;
+}
+
+.user-signup {
+    animation: fadeIn 0.5s ease-out;
+}
+
+.user-login {
+    animation: fadeIn 0.5s ease-out;
+}
+
+/* Header */
+h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 30px;
+    font-weight: 600;
+    color: #fff;
+}
+
+/* Input fields */
+.form-input {
+    width: 100%;
+    padding: 12px 15px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 8px;
+    background-color: #fff;
+    color: #333;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+/* Input field focus effect */
+.form-input:focus {
+    outline: none;
+    border: 2px solid #ff6b6b;
+    box-shadow: 0 0 5px rgba(255, 107, 107, 0.6);
+}
+
+/* Button */
+.form-button {
+    width: 100%;
+    /* padding: 14px; */
+    margin-top: 10px;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    background-color: #ff6b6b;
+    color: #fff;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.form-button:hover {
+    background-color: #e55a5a;
+    transform: scale(1.05);
+}
+
+.form-button[disabled] {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+/* Error messages */
+.invalid-input {
+    font-size: 0.9rem;
+    color: #f44336;
+    margin: 0;
+}
+
+/* Links and message styling */
+.link-message {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9rem;
+}
+
+.link-message a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.link-message a:hover {
+    color: #ff6b6b;
+}
+
+/* Animation for fading in forms */
+@keyframes fadeIn {
+    0% { opacity: 0; transform: translateY(20px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .user-signup, .user-login {
+        padding: 30px;
+        width: 90%;
+    }
+
+    h1 {
+        font-size: 1.6rem;
+    }
+
+    .form-button {
+        padding: 12px;
+        font-size: 1rem;
+    }
+}

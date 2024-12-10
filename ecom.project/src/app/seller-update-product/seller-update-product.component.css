@@ -1,0 +1,154 @@
+/* Base Styles for Update Product Form */
+.update-product {
+    max-width: 900px;
+    margin: 10px ;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+}
+
+.update-product h1 {
+    text-align: center;
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.message-p {
+    text-align: center;
+    color: #28a745; /* Green for success messages */
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+/* Form Styling */
+.common-form {
+    display: flex;
+    flex-direction: column;
+    gap: 5 px;
+}
+
+.form-input {
+    padding: 12px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #fff;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+/* Focus effect for form fields */
+.form-input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    outline: none;
+}
+
+/* Textarea */
+textarea.form-input {
+    height: 70px;
+    resize: vertical;
+}
+
+/* Button Styling */
+.form-button {
+    background-color: #28a745;
+    color: white;
+    height: 50px;
+    padding: 14px;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+.form-button:hover {
+    background-color: #218838;
+}
+
+/* Responsive Design */
+
+/* Mobile-first: Small Devices */
+@media (max-width: 576px) {
+    .update-product {
+        padding: 20px;
+        margin: 15px;
+    }
+
+    .update-product h1 {
+        font-size: 1.8rem;
+    }
+
+    .form-input {
+        font-size: 0.9rem;
+        padding: 10px;
+    }
+
+    .form-button {
+        font-size: 1rem;
+        padding: 12px;
+    }
+
+    .form-group label {
+        font-size: 0.9rem;
+    }
+
+    .message-p {
+        font-size: 0.9rem;
+    }
+}
+
+/* Tablet & Small Desktop */
+@media (min-width: 577px) and (max-width: 768px) {
+    .update-product {
+        padding: 25px;
+    }
+
+    .update-product h1 {
+        font-size: 2rem;
+    }
+
+    .form-input {
+        font-size: 1rem;
+    }
+
+    .form-button {
+        font-size: 1.1rem;
+        padding: 13px;
+    }
+
+    .form-group label {
+        font-size: 1rem;
+    }
+}
+
+/* Larger Devices (Desktop) */
+@media (min-width: 769px) {
+    .update-product {
+        max-width: 1000px;
+        padding: 40px;
+    }
+
+    .update-product h1 {
+        font-size: 2.4rem;
+    }
+
+    .form-input {
+        font-size: 1rem;
+    }
+
+    .form-button {
+        font-size: 1.1rem;
+        padding: 15px;
+    }
+
+    .form-group label {
+        font-size: 1.1rem;
+    }
+}

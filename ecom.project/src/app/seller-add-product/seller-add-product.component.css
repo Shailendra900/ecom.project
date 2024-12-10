@@ -1,0 +1,157 @@
+/* Base styling for the page */
+.add-product {
+    max-width: 900px;
+    margin: 10px ;
+    padding: 30px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+}
+
+.add-product h1 {
+    text-align: center;
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.message-p {
+    text-align: center;
+    color: #28a745;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+/* Form Card Styles */
+.form-card {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 1rem;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #555;
+}
+
+.form-input {
+    padding: 12px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #fff;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+/* Hover effect for input fields */
+.form-input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    outline: none;
+}
+
+textarea.form-input {
+    height: 70px;
+    resize: vertical;
+}
+
+/* Submit Button */
+.form-button {
+    background-color: #007bff;
+    color: white;
+    height: 50px;
+    padding: 14px;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+.form-button:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive Design */
+@media (max-width: 576px) {
+    .add-product {
+        padding: 20px;
+        margin: 15px;
+    }
+
+    .add-product h1 {
+        font-size: 1.8rem;
+    }
+
+    .form-input {
+        font-size: 0.9rem;
+        padding: 10px;
+    }
+
+    .form-button {
+        font-size: 1rem;
+        padding: 12px;
+    }
+
+    .form-group label {
+        font-size: 0.9rem;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+    .add-product {
+        padding: 25px;
+    }
+
+    .add-product h1 {
+        font-size: 2rem;
+    }
+
+    .form-input {
+        font-size: 1rem;
+    }
+
+    .form-button {
+        font-size: 1.1rem;
+        padding: 13px;
+    }
+
+    .form-group label {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 769px) {
+    .add-product {
+        max-width: 1000px;
+        padding: 40px;
+    }
+
+    .add-product h1 {
+        font-size: 2.4rem;
+    }
+
+    .form-input {
+        font-size: 1rem;
+    }
+
+    .form-button {
+        font-size: 1.1rem;
+        padding: 15px;
+    }
+
+    .form-group label {
+        font-size: 1.1rem;
+    }
+}

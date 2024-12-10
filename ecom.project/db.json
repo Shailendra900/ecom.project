@@ -1,0 +1,177 @@
+{
+  "seller": [
+    {
+      "id": "2f53",
+      "name": "Shailendra verma",
+      "email": "som@2gmail.com",
+      "password": "abc@123"
+    },
+    {
+      "id": "33c4",
+      "name": "mukesh",
+      "password": "abc@123",
+      "email": "mk@gmail.com"
+    },
+    {
+      "id": "3674",
+      "name": "Shailendra Kumar Verma",
+      "email": "ssom@2gmail.com",
+      "password": "abc@123"
+    }
+  ],
+  "products": [
+    {
+      "name": "Realme 11 Pro",
+      "price": "34040",
+      "color": "Orange",
+      "category": "mobile",
+      "description": "realme 11 5G (Glory Gold, 256 GB)  (8 GB RAM)",
+      "image": "https://th.bing.com/th/id/OIP.bjufWv_zZnfN103skH-ntwHaHa?rs=1&pid=ImgDetMain",
+      "id": "d1da"
+    },
+    {
+      "name": "Campus Shoes",
+      "price": "1140",
+      "color": "Black",
+      "category": "Shoes",
+      "description": "Campus Running Shoes For Men(Black)",
+      "image": "https://n2.sdlcdn.com/imgs/j/n/g/Campus-NORTH-PLUS-Black-Running-SDL521014371-1-e06f3.jpg",
+      "id": "ca09"
+    },
+    {
+      "name": "Boat Smart Watch",
+      "price": "1000",
+      "color": "Black",
+      "category": "Smart Watch",
+      "description": "boAt Xtend Smart Watch with Alexa Built-in, 1.69” HD Display, Multiple Watch Faces, Stress Monitor, Heart & SpO2 Monitoring, 14 Sports Modes, Sleep Monitor, 5 ATM & 7 Days Battery(Pitch Black)",
+      "image": "https://m.media-amazon.com/images/I/61IMRs+o0iL._SX679_.jpg",
+      "id": "1c2e"
+    },
+    {
+      "name": "OPPO Enco Buds 2",
+      "price": "1700",
+      "color": "Black",
+      "category": "Oppo earbuds",
+      "description": "OPPO Enco Buds 2 with 28 hours Battery life & Deep Noise Cancellation Bluetooth Headset  (Midnight, True Wireless)",
+      "image": "https://th.bing.com/th/id/OIP.ECMSd-vgUUHylPIQISIcVwHaMW?pid=ImgDet&w=159&h=264&c=7",
+      "id": "058a"
+    },
+    {
+      "name": "Headphone",
+      "price": "500 ",
+      "color": "Gray",
+      "category": "HeadPhone",
+      "description": "boAt Rockerz 550 Over-Ear Wireless Headphone with: Amazon.in: Electronics",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/710XhG8bO3L._SL1500_.jpg",
+      "id": "9880"
+    },
+    {
+      "id": "cbb4",
+      "name": "Boat Earphone",
+      "price": "700",
+      "color": "Black",
+      "category": "Earphone",
+      "description": "boAt Rockerz Earphones & headphones up to 70% off at Amazon - Delsheaven",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/715Be92nTwL._SL1500_.jpg"
+    },
+    {
+      "id": "0fef",
+      "name": "Sony Bluetooth Headphone",
+      "price": "900",
+      "color": "Black",
+      "category": "HeadPhone",
+      "description": "Sony MDR-XB650BT EXTRABASS Bluetooth Headphones MDRXB650BT/L B&H",
+      "image": "https://brain-images-ssl.cdn.dixons.com/6/4/10153446/u_10153446.jpg"
+    },
+    {
+      "name": "iphone14",
+      "price": "86900",
+      "color": "Sky Blue",
+      "category": "mobile",
+      "description": "Apple IPhone 14 And IPhone 14 Plus Specification And Pricing",
+      "image": "https://th.bing.com/th/id/OIP.RMgSZevhD7HOhlr8MP_9KwAAAA?rs=1&pid=ImgDetMain",
+      "id": "da90"
+    },
+    {
+      "name": "Apple iPhone 15 Pro Max",
+      "price": "146340",
+      "color": "Black",
+      "category": "mobile",
+      "description": "Apple iPhone 15 Pro Max - DXOMARK",
+      "image": "https://th.bing.com/th?id=OPAC.W6UFvvkcawci%2fg474C474&w=592&h=550&o=5&pid=21.1",
+      "id": "e6b8"
+    },
+    {
+      "name": "Samsung Galaxy S Series S24",
+      "price": "79999",
+      "color": "Cobalt Violet",
+      "category": "mobile",
+      "description": "DAK Samsung Galaxy S24 5G (Cobalt Violet, 8 GB RAM, 256 GB Storage)",
+      "image": "https://th.bing.com/th?id=OPAC.dp6Outz8Ny3X1g474C474&w=592&h=550&o=5&pid=21.1",
+      "id": "5060"
+    },
+    {
+      "name": "SUMSUNG GALAXY S24 Ultra",
+      "price": "129999",
+      "color": "Black",
+      "category": "mobile",
+      "description": "SAMSUNG Galaxy S24 Ultra 5G (12GB RAM, 256GB, Titanium Black)",
+      "image": "https://th.bing.com/th/id/OIP.pJCoDVCeQLkTGOgmyiaDdAHaHa?rs=1&pid=ImgDetMain",
+      "id": "82c9"
+    },
+    {
+      "name": "Sonata Silver White Dial Analog Watch ",
+      "price": "1079",
+      "color": "Brown",
+      "category": "watch",
+      "description": "Sonata Silver White Dial Analog Watch For Men-NR7128WL02",
+      "image": "https://th.bing.com/th?id=OPAC.wmwp7GaLFsBJ2w474C474&w=592&h=550&o=5&pid=21.1",
+      "id": "b4b6"
+    }
+  ],
+  "users": [
+    {
+      "id": "0392",
+      "name": "Shailendra",
+      "email": "som@2gmail.com",
+      "password": "abc@123"
+    },
+    {
+      "id": "2198",
+      "name": "Revti Verma",
+      "email": "revti@gmail.com",
+      "password": "abc@123"
+    },
+    {
+      "id": "3ecb",
+      "name": "",
+      "email": "",
+      "password": ""
+    }
+  ],
+  "cart": [
+    {
+      "id": "6512",
+      "name": "Realme 11 Pro",
+      "price": "34040",
+      "color": "Orange",
+      "category": "mobile",
+      "description": "realme 11 5G (Glory Gold, 256 GB)  (8 GB RAM)",
+      "image": "https://th.bing.com/th/id/OIP.bjufWv_zZnfN103skH-ntwHaHa?rs=1&pid=ImgDetMain",
+      "quantity": 1,
+      "productId": "d1da",
+      "userId": null
+    }
+  ],
+  "orders": [
+    {
+      "id": "377d",
+      "email": "som@2gmail.com",
+      "address": "raikheda",
+      "contact": "9691919191",
+      "totalPrice": 800,
+      "userId": "0392"
+    }
+  ],
+  "customer": []
+}
